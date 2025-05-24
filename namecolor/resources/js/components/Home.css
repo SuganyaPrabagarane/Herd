@@ -1,0 +1,57 @@
+.flashcard-home {
+    display: flex;
+    justify-content: center;
+    padding: 4% 30% 0% 40%;
+    width: 50vh;
+    height: 20vh;
+}
+
+.home-btn {
+    width: 20vh;
+    height: 8vh;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e27242;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 30px;
+}
+
+.home-btn:hover {
+    background-color: #e8591c;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+section {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-weight: 500;
+    height: auto;
+}
+
+section h1 {
+    padding: 0 0 5px 0;
+    font-size: 20px;
+    color: #222;
+    align-self: flex-start;
+}
+
+section p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 0%;
+}
