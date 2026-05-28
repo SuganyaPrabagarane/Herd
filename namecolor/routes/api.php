@@ -19,7 +19,7 @@ Route::get('/proxy/finnish-words', function (Request $request) {
         'x-api-key' => '9dd038947f7d41a7bd55c7f73766f815'
     ])->get('https://finnfast.fi/api/words', [
         'limit' => 10,
-        'page' => 1,
+        'page' => 2,
         'all' => false
     ]);
 

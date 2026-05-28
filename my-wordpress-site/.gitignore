@@ -1,0 +1,17 @@
+# WordPress specific
+wp-config.php
+wp-content/uploads/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/backups/*
+.htaccess
+
+# Environment files
+*.log
+*.sql
+*.env
+
+# IDE and OS files
+.DS_Store
+.idea/
